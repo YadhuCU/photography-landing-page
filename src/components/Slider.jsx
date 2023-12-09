@@ -40,8 +40,6 @@ export default function Slider() {
         slidesPerView={3}
         loop={true}
         pagination={{ clickable: true }}
-        onSlideChange={(e) => console.log(e)}
-        onSwiper={(swiper) => console.log(swiper)}
         style={{
           paddingBlock: "40px",
           maxWidth: "min(80%, 1000px)",
